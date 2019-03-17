@@ -1,0 +1,41 @@
+/* GLOBAL PROPERTIES 
+---------------------*/
+
+body {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+h1 {
+    font-weight: 500;
+    border-left: 12px solid #5b6b99;
+    padding: 8px 16px;
+    background-color: #111;
+}
+
+h2 {
+    font-weight: 500;
+    border-left: 6px solid rgb(220, 80, 0);
+    padding: 4px 8px;
+    background-color: #222;
+    transition: border-left 1s;
+}
+
+p {
+    padding: 0 0 24px 10px;
+}
+
+h2:hover {
+    border-left: 6px solid white;
+}
+
+/* Container wraps the content and wraps the webspace */
+
+.container {
+    padding: 5px 15px;
+    max-width: 800px;
+    margin: 0;
+    overflow: auto;
+}
